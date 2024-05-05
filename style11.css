@@ -1,0 +1,541 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: lightcyan;
+	
+}
+
+#banner {
+	height: 0%px;
+	width: 100%;
+}
+
+h1 {
+
+	
+	
+}
+
+h2 {
+
+
+
+}
+
+.retangulo {
+	text-align: center; font-size: 35px; color: green; border: 10px solid;
+	height: 50px; padding: 15px; margin-left: 30%; margin-right: 30%;
+}
+
+#gif2 {
+	width: 5%;
+	height: 5%; /*7%*/
+	float: left;
+	margin: 0 20px;
+}
+
+.titulo {
+
+	clear: left; /*Tirar o titulo do gif2 float left*/
+}
+
+h3 {
+	font-size: 22px; font-weight: bold; color: green; text-align: center;
+}
+
+h4 {
+	font-size: 22px; font-weight: bold; color: green;
+}
+
+p {
+
+
+
+}
+
+i {
+	font-style: italic; color: red;
+}
+
+b{
+	font-weight: bold;
+}
+
+.principal p{
+	font-size: 20px; text-align: center;
+}
+
+.principal {
+	background: lightblue; padding: 30px;
+	box-shadow: inset 0 0 30px darkslategrey;
+}
+
+.lista {
+	padding: 30px;
+}
+
+.lista li:before {
+	content: "⭐";
+	margin-right: 15px;
+	margin-left: -27px;
+}
+
+.lista ul {
+	list-style-type: none;
+	/*list-style-type: disc;  Serve pra colocar o ponto em vez da ✯ nas listas */
+
+}
+
+.lista li {
+	font-size: 20px; font-style: italic; margin-bottom: 5px /*espaçamento entre as linhas*/;
+}
+
+.banner2 {
+	height: 270px;
+	width: 410px;
+	margin-left: 500px;
+	margin-top: -500px;
+	margin-bottom: 40px;
+	box-shadow: 10px 10px 5px grey;
+}
+
+.banner3 {
+	height: 270px;
+	width: 410px;
+	margin-left: 500px;
+	margin-top: -340px;
+	box-shadow: 10px 10px 5px grey;
+}
+
+/* definições para a página habito */
+
+header {
+	background: lightskyblue;
+	padding: 1px 0;
+
+}
+
+.logo {
+	height: 130px;
+	width: 15%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 65px;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+ 
+nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-style: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+nav a:hover:active {
+	color: red;
+}
+
+.menu {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	background: white;
+	margin: 0 1.5%;
+	padding: 45px 20px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.menu li:hover {
+	border: 5px solid green;
+}
+/*Esse active muda a cor quando clica*/
+.menu li:active { 
+	border-color: red;
+}
+
+.menu li:hover:active h2{ 
+	color: red;
+}
+
+.menu li:hover h2 {
+	color: green;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.menu h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+nav li .m1 {
+	position: absolute;
+	top: 2px;
+	background-color: lightcyan;
+	margin-left: -20px;
+	display: none;
+	padding: 8px 8px 8px 0%;
+}
+
+nav li .m2 {
+	position: absolute;
+	top: 2px;
+	left: 40px;
+	background-color: lightcyan;
+	display: none;
+	padding: 8px 8px 8px 0%;
+}
+
+nav li .m3 {
+	position: absolute;
+	top: 2px;
+	left: 125px;
+	background-color: lightcyan;
+	display: none;
+	margin-right: -100px;
+	padding: 8px 8px 8px 0%;
+}
+
+nav li:hover ul {
+	display: block;
+}
+
+nav li ul li {
+	display: block;
+	padding: 2px;
+}
+
+.mapa {
+	text-align: center;
+	padding: 3em 30px;
+	background: linear-gradient(lightskyblue, darkblue);
+}
+
+.video {
+	text-align: center;
+	padding: 30px;
+	background: linear-gradient(darkblue, lightskyblue);
+}
+
+footer {
+	text-align: center;
+	background: url("gif.gif");
+	padding: 30px;
+}
+
+.logo2 {
+	height: 300px;
+	width: 25%;
+	margin: -40px ;
+	opacity: 0.6;
+	transition: 400ms;
+}
+
+.copyright {
+	color: white;
+	font-size: 22px;
+	margin: 20px 0 0 0px;
+	opacity: 0.6;
+	transition: 400ms;
+}
+
+.logo2:hover {
+	opacity: 1;
+}
+
+.copyright:hover {
+	opacity: 1;
+}
+
+/* definições para a página contato */
+
+main {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.info {
+	margin: 40px 0 0 0;
+}
+
+/* margin: a b c d (a é margem vertical de cima, b é margem horizontal da direita, c é margem vertical de baixo, 
+d é margem horizontal da esquerda)
+   margin: a b (a é margem vertical de cima e de baixo, c é margem horizontal da esquerda e da direita*/
+
+.info label {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+	font-weight: bold;
+}
+
+.info input, .info textarea {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 50%;
+}
+
+.padrao {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+/*.label-padrao {
+	display: block;
+	margin: 0 0 10px;
+}*/
+
+.botao-padrao {
+	margin: 20px 0 40px 0;
+}
+
+fieldset {
+	margin: 20px 0;
+}
+
+/* css do certeza */
+
+
+.certeza {
+	display: none;
+}
+
+.cursor2:checked ~ .certeza{ /* "~" significa irmão */
+	display: block;
+	font-weight: bold;
+	color: orange;
+}
+
+.cursor1:checked ~ .certeza{
+	display: block;
+	font-weight: bold;
+	color: orange;
+}
+
+
+.checkbox {
+	display: block;
+	margin: 40px 0 10px;
+}
+
+.enviar:hover {
+	background: orangered;
+	transform: scale(1.15);
+}
+
+.enviar {
+	margin: 20px 0 40px 0;
+	width: 40%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.cursor1, .cursor2, .cursor3 {
+	cursor: pointer;
+	margin-bottom: 8px;
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+tbody {
+	background: white;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 8px 10px;
+}
+
+/* Animação página contato */
+
+	#animacao {
+		height: 250px;
+	}
+
+	.areagif {
+		display: grid;
+		/*width: 50vh;*/
+		place-items: center;
+	}
+	
+	.boxgif {
+		background: darkblue;
+		padding: 15px;
+		transition-property: background-color, border-radius;
+		transition-duration: 2s, 0.5s;
+		transition-timing-function: ease-in-out;
+	}
+
+	.boxgif:hover {
+		background: lightskyblue;
+		border-radius: 50%;
+
+	}
+	
+	.obrigado {
+		display: none;		
+	}
+
+	.areagif:hover ~ .obrigado{
+		display: block;
+		text-align: center;
+		font-weight: bold;
+		font-size: 30px;	
+		position: relative;	
+		margin-top: -360px;
+		margin-bottom: 330px;
+		color: darkblue;
+	}
+
+
+@media screen and (max-width: 480px) {
+
+	main, .caixa, .lista, .principal, .mapa, .video {
+		width: auto;
+	}
+
+	.logo {
+		margin-left: 30px;
+		height: 100px;
+		width: 100px;
+	}
+
+	.logo2 {
+		height: 300px;
+		width: 300px;
+	}
+
+	body {
+		margin-right: -25px;
+	}
+
+	.caixa {
+		position: static;
+		width: 100%;
+	}
+
+	nav li .m3 {
+		position: absolute;
+		top: 2px;
+		left: 90px;
+		background-color: lightcyan;
+		display: none;
+		margin-right: -100px;
+		padding: 8px 8px 8px 0%;
+	}	
+
+	.banner2, .banner3 {
+		margin: auto;
+		text-align: center;
+		margin-left: -20px;
+	}
+
+	.retangulo {
+		text-align: center; font-size: 35px; color: green; border: 10px solid;
+		height: 70px; padding: 10px; margin-left: 20%; margin-right: 20%;
+	}
+
+
+	/* Acertando a página hábito */
+
+	.menu {
+		width: 100%;
+		margin: 0 auto;
+		padding: 50px 0;
+	}
+
+	.menu li {
+		display: inline-block;
+		text-align: center;
+		width: 29%;
+		vertical-align: top;
+		background: white;
+		margin: 0 1.5%;
+		padding: 45px 20px;
+		box-sizing: border-box;
+		border: 2px solid black;
+		border-radius: 10px;
+	}
+
+	.bannermenu {
+		width: 90px;
+	}
+
+	.banner4 {
+		width: 90px;
+		margin-top: -30px;
+	}
+
+	menu br {
+		margin-top: -50px;
+	}
+
+	.menu li:hover h2 {
+		color: green;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.menu h2 {
+		font-size: 13px;
+		font-weight: bold;
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+	/* Fazendo margem no main da página contato */
+
+	main form, main table {
+		margin-left: 30px;
+	}
+
+
+}
